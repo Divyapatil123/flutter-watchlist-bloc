@@ -48,13 +48,16 @@ The reordered watchlist is stored locally using SharedPreferences and restored o
 
 ## 📂 Project Structure
 
+```text
 lib/
-├── bloc/ # BLoC logic (events, states, bloc)
-├── data/ # Repository (data + persistence)
-├── models/ # Data models (Stock)
-├── screens/ # UI screens
-├── widgets/ # Reusable UI components
-├── main.dart
+├── bloc/         # BLoC logic (events, states, bloc)
+├── data/         # Repository (data + persistence)
+├── models/       # Data models
+├── screens/      # UI screens
+├── widgets/      # Reusable UI components
+└── main.dart
+
+```
 
 
 
